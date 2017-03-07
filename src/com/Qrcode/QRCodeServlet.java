@@ -132,4 +132,5 @@ private static void Bitmap encodeAsBitmap(String qrCodeData)throws WriterExcepti
 				hintMap);
 		return qrCodeResult.getText();
 	}
+	}
 */
