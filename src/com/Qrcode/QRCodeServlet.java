@@ -119,7 +119,7 @@ private static void Bitmap encodeAsBitmap(String qrCodeData)throws WriterExcepti
 				BarcodeFormat.QR_CODE, qrCodewidth, qrCodeheight, hintMap);
 		MatrixToImageWriter.writeToFile(matrix, filePath.substring(filePath
 				.lastIndexOf('.') + 1), new File(filePath));
-	}
+	}//qr code
 
 	
 	
