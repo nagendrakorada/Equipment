@@ -131,5 +131,5 @@ private static void Bitmap encodeAsBitmap(String qrCodeData)throws WriterExcepti
 		Result qrCodeResult = new MultiFormatReader().decode(binaryBitmap,
 				hintMap);
 		return qrCodeResult.getText();
-	}}
+	}
 */
